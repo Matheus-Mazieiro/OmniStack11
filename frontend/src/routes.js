@@ -8,7 +8,7 @@ import NewIncident from './Pages/NewIncident';
 
 export default function Routes(){
     return(
-        <BrowserRouter forceRefresh={true}>     
+        <BrowserRouter>     
             <Switch>
                 <Route exact path="/" component={Logon}/>
                 <Route path="/Register" component={Register}/>
