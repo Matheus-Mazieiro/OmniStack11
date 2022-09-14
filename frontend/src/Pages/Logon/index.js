@@ -38,6 +38,10 @@ export default function Logon() {
                     />
                     <button className="button" type="submit"> Entrar</button>
 
+                    <Link className="button" to="/ongs">
+                        Ver ongs
+                    </Link>
+
                     <Link className="back-link" to="/register">
                         <FiLogIn size={16} color="#e02041" />
                         Não tenho cadastro
